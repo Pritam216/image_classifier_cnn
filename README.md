@@ -1,6 +1,8 @@
-# 🐱🐶 Cat vs. Dog Image Classifier 
+# Cat vs. Dog Image Classifier 
 
 This is a simple Streamlit web application that uses a deep learning model to classify uploaded images as either a cat or a dog.
+
+![image](https://github.com/user-attachments/assets/96db8694-ce79-42cf-8637-15bc43fe8312)
 
 ## Features
 
