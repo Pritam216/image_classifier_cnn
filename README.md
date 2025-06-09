@@ -61,7 +61,7 @@ This will open the application in your default web browser.
 ## Project Structure
 
 ```
-your-repo-name/
+image_classifier_cnn/
 ├── app.py                     # Main Streamlit application file
 ├── predict_page.py            # Contains the classification logic and model loading function
 ├── saved_model.pkl            # The trained deep learning model (crucial for prediction)
