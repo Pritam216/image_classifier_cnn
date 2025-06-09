@@ -1,14 +1,14 @@
-# 🐱🐶 Cat vs. Dog Image Classifier 🐶🐱
+# 🐱🐶 Cat vs. Dog Image Classifier 
 
 This is a simple Streamlit web application that uses a deep learning model to classify uploaded images as either a cat or a dog.
 
-## 🚀 Features
+## Features
 
 * **Image Upload:** Easily upload your `.jpg`, `.jpeg`, or `.png` image files.
 * **Real-time Prediction:** Get instant classification results (Cat or Dog).
 * **Streamlit Interface:** User-friendly web interface.
 
-## ✨ How it Works
+## How it Works
 
 The application uses a Convolutional Neural Network (CNN) model, which has been trained on a dataset of cat and dog images. When you upload an image:
 1.  The image is preprocessed (resized to 256x256 pixels).
@@ -16,7 +16,7 @@ The application uses a Convolutional Neural Network (CNN) model, which has been 
 3.  The model outputs a prediction (0 for Cat, 1 for Dog, or a probability which is then thresholded).
 4.  The result is displayed on the Streamlit interface.
 
-## ⚙️ Setup and Installation
+## Setup and Installation
 
 Follow these steps to get the application running on your local machine:
 
@@ -24,8 +24,8 @@ Follow these steps to get the application running on your local machine:
 
 If you're using Git:
 ```bash
-git clone [https://github.com/Pritam216/image_classifier_cnn.git](https://github.com/Pritam216/image_classifier_cnn.git)
-cd your-repo-name
+git clone https://github.com/Pritam216/image_classifier_cnn.git
+cd image_classifier_cnn
 ```
 
 If you prefer to download:
@@ -56,7 +56,7 @@ streamlit run app.py
 
 This will open the application in your default web browser.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 your-repo-name/
@@ -79,4 +79,3 @@ Feel free to fork this repository, open issues, or submit pull requests if you h
 ---
 
 **Made with ❤️ by [Pritam Kumar Roy/Pritam216]**
-```
